@@ -186,7 +186,8 @@ hardware/qcom-caf/sm8350/display/config/snapdragon_color_libs_config.xml:$(TARGE
 # DRM
 PRODUCT_PACKAGES += \
 android.hardware.drm@1.3.vendor \
-android.hardware.drm-service.clearkey
+android.hardware.drm-service.clearkey \
+libcrypto-v33
 
 # Fastbootd
 PRODUCT_PACKAGES += \
